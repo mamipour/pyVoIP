@@ -34,6 +34,9 @@ if __name__ == "__main__":
     phone.stop()
 ```
 
+for call.write_audio
+Audio must be 8 bit, 8000Hz, and Mono/1 channel. You can accomplish this in a free program called Audacity. To make an audio recording Mono, go to Tracks > Mix > Mix Stereo Down to Mono. To make an audio recording 8000 Hz, go to Tracks > Resample… and select 8000, then ensure that your ‘Project Rate’ in the bottom left is also set to 8000. To make an audio recording 8 bit, go to File > Export > Export as WAV, then change ‘Save as type:’ to ‘Other uncompressed files’, then set ‘Header:’ to ‘WAV (Microsoft)’, then set the ‘Encoding:’ to ‘Unsigned 8-bit PCM’
+
 ### Sponsors
 
 - [Nabu Casa](https://www.nabucasa.com/)
